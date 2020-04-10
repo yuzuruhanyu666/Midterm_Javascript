@@ -1,0 +1,79 @@
+body{
+  padding: 0;
+  overflow: hidden;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+#sidebar{
+  position:absolute;
+  width:400px;
+  top:0;
+  overflow-y: auto;
+  left:0;
+  bottom:0px;
+  background-color: white;
+  padding: 20px;
+}
+
+#description{
+  font-size: 17px;
+}
+
+
+#button{
+  position:absolute;
+  width:400px;
+  top:600px;
+  overflow-y: auto;
+  left:0;
+  bottom:0;
+  background-color: white;
+  padding: 20px;
+}
+#previousButton{
+  position: absolute;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  background-color: #1ab1b5;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  left:20px;
+  bottom:20px;
+}
+
+#nextButton{
+  position: absolute;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  background-color: #1ab1b5;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  left:300px;
+  bottom:20px;
+}
+
+#map{
+  position: absolute;
+  right: 0px;
+  left: 450px;
+  height: 100%;
+  top: 0;
+
+}
